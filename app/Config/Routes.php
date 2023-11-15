@@ -28,4 +28,5 @@ $routes->get('/user', 'User::index');
 $routes->get('/create-api', 'CreateApi::index');
 
 ####################DATA TABLE################################
-$routes->get('/data-table', 'DataTable::index');
+$routes->get('/data-table-simple', 'DataTableExample::index');
+$routes->get('/data-table-server-side', 'DataTableExample::VServerSide');
